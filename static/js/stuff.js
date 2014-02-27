@@ -12,7 +12,7 @@ $('#disappear').click(function() {
 });
 
 $('#reappear').click(function() {
-  	$('houdini_text').show();
+  	$('#houdini_text').show();
 });
 
 
