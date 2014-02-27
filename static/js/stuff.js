@@ -8,7 +8,7 @@ $('#say_hello').click(function() {alert('Hello World!')
 
 // Problem 2 (Houdini) ------------------------------------------------------
 $('#disappear').click(function() {
-	$('Write some code to make this paragraph disappear when you click on the button. Then write some code to make it reappear with the other button').hide();
+	$('#Houdini_Text').hide();
 });
 
 $('#reappear').click(function() {
