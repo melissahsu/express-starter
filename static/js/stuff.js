@@ -8,7 +8,7 @@ $('#say_hello').click(function() {alert('Hello World!')
 
 // Problem 2 (Houdini) ------------------------------------------------------
 $('#disappear').click(function() {
-	$('#Houdini_Text').hide();
+	$('#houdini_text').hide();
 });
 
 $('#reappear').click(function() {
