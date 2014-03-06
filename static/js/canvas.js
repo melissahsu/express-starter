@@ -10,11 +10,11 @@ $(document).ready(function() {
   //---------------------------------------------------------------------------
   //Write your code for p1-p12 here
   $('#p1').click(function() {
- context.clearRect(1, 1, canvas.2, canvas.10);
+ context.strokeRect(1, 1, 2, 10);
   });
 
   $('#p2').click(function() {
- context.clearRect(5, 5, canvas.4, canvas.4);
+ context.strokeRect(5, 5, 4, 4);
   });     
-
+  });     
 
