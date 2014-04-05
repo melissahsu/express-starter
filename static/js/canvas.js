@@ -18,3 +18,11 @@ $(document).ready(function() {
   });     
   });     
 
+$('#p3').click(function() {
+  context.beginPath()
+  context.Arc(7,20,10,Math.PI,-Math.PI);
+  context.closePath()
+  context.strokeArc
+});
+
+	
