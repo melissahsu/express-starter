@@ -65,7 +65,7 @@ var drawSierpinski = function(x, y, color){
   });
 
   $('#p2').click(function() {
-    drawSquare(300, 100, 25, 'green');
+    drawSquare(250, 150, 20, 'green');
   });
 
   $('#p3').click(function() {
@@ -73,7 +73,7 @@ var drawSierpinski = function(x, y, color){
   });
 
   $('#p4').click(function() {
-    drawCircle(300, 100, 25, 'black');
+    drawCircle(150, 150, 20, 'black');
   });
 
   $('#p5').click(function(){
