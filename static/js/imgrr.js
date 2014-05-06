@@ -2,9 +2,13 @@
 // WRITE CODE HERE
 
 $('#toggle_img').click(function() {
-	if ( $'#toggle_img').text() == 'Come Back!' {
+	if ($('#toggle_img').text() == 'Come Back!') {
 		$('#toggle_img').text ('Go Away!');
 		$('#main_img').show();
+	}
+	else {
+		$('#toggle_img').text('Come Back!');
+		$('#main_img').hide();
 	}
 });
 // Problem 3 (Swap Em) -----------------------------------------------
